@@ -1,5 +1,5 @@
 function [B] = frequency_sort(B)
-    [m,n] = size(A);
+    [m,n] = size(B);
     N = m*(m-1);
     while N > 0;
     for i = 1:m-1
